@@ -10,6 +10,6 @@ model:
     params: {}
     detection_threshold: 0.005
     nms: 4
-    top_k: 50
+    top_k: 10000
     nn_thresh: 1
-    pretrained: 'models/weights/superPointNet_200000_checkpoint.pth.tar'
+    pretrained: 'retrained_superpoint/models/weights/superPointNet_200000_checkpoint.pth.tar'
